@@ -1,0 +1,27 @@
+.container {
+    border: 2px solid black;
+    display: inline-block;
+    width: 100%;
+}
+
+input, button, p {
+    font-size: 14px;
+    margin-top: 5px;
+    margin-bottom: 0;
+    width: 200px;
+    box-sizing: border-box;
+}
+
+.options_container {
+    width: 20%;
+    position: relative;
+    display: inline-block;
+    padding: 10px;
+}
+
+#canvas {
+    float: left;
+    display: block;
+    position: relative;
+    border: 2px solid grey;
+}
